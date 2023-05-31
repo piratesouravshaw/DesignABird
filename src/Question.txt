@@ -1,0 +1,14 @@
+Question:
+1. There are 5 birds: Pigeon
+                      Crow
+                      Sparrow
+                      Ostrich
+                      Penguin
+2. Penguin and Ostrich don't fly. Everyone else flies
+3. Crow and Sparrow fly in same way
+4. Everybody can eat and make sound
+
+
+
+// Doubts:
+1. FLy should be an interface ... How to manage FlyingBehaviour
