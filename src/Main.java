@@ -2,8 +2,11 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        Pigeon p=new Pigeon(new DefaultFlyingBehaviour());
+        Pigeon p=new Pigeon();
         p.canEat();
         p.canMakeSound();
+        p.fly();
+        Sparrow sp=new Sparrow(new CrowSparrowFlyingBehaviour());
+        sp.fly();
     }
 }

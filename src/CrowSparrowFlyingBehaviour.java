@@ -1,6 +1,7 @@
-public class CrowSparrowFlyingBehaviour extends DefaultFlyingBehaviour implements Fly {
+public class CrowSparrowFlyingBehaviour implements FlyingBehaviour {
     @Override
-    public void fly() {
-        System.out.println("I am flying by CrowSparrowFlyingbehaviour"+this.getClass());
+    public void howFly()
+    {
+        System.out.println("Crow and Sparrow Fly Behaviour");
     }
 }
